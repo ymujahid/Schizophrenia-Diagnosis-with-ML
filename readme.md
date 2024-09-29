@@ -28,10 +28,12 @@ EEG data edf files curated by Mr Emmanuel Olateju
 
 ## Code Structure
 The project is structured in four folders explained as follows:
-1. Acquired Dataset: This folder contains the edf files which provide the eeg readings of the patients along with the gnr file for each patient which contain the biodata details of the patient.
-2. Data: This folder contains the eeg_data, participants_info and model_data csv files. eeg_data contains the numeric eeg data for all the patients, participants_info contains the biodata of each of the patients, model_data contains the columns of data required for modelling. All the columns in model_data are numeric after necessary conversions.
-3. Models: This folder contains the models saved from different trials of training before arriving at the best possible model.
-4. Scripts: This folder houses the brainbox of the project. It contains the python scripts used to carry out the data extraction, exploratory data analysis, Machine learning models cross validation and validation, and the final simple neural network model.
+1. Scripts: This folder houses the brainbox of the project. It contains the python scripts used to carry out the data extraction, exploratory data analysis, Machine learning models cross-validation and validation, and the final simple neural network model.
+2. Features: This folder contains the relevant features that were used in the model scripting
+3. Acquired Dataset [private]: This folder contains the edf files which provide the eeg readings of the patients along with the gnr file for each patient which contain the biodata details of the patient.
+4. Data[private]: This folder contains the eeg_data, participants_info and model_data csv files. eeg_data contains the numeric eeg data for all the patients, participants_info contains the biodata of each of the patients, model_data contains the columns of data required for modelling. All the columns in model_data are numeric after necessary conversions.
+5. Models[private]: This folder contains the models saved from different trials of training before arriving at the best possible model.
+To view the private folders, request for access at https://drive.google.com/drive/folders/1eIFq550DbtDD0aAXaAPUyRd2Jlrys8PJ?usp=sharing 
 
 ## Results and Evaluation:
 The metrics used to evaluate the model are accuracy and confusion matrix. The best performing model was got by training simple neural network with a standardized time-series EEG data. The accuracy of this best model is 91.84%. The confusion matrix gives 25 true positive, 20 true negative, 1 false positive and 3 false negative.
