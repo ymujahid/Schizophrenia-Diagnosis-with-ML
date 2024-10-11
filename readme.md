@@ -35,7 +35,7 @@ The project is structured in four folders explained as follows:
 5. Models[private]: This folder contains the models saved from different trials of training before arriving at the best possible model.
 
 #### To view the private folders, request for access at https://drive.google.com/drive/folders/1eIFq550DbtDD0aAXaAPUyRd2Jlrys8PJ?usp=sharing 
-#### Private Files
+#### Public Files
 >* [Mujahid_401_Report_First_Draft.pdf](https://drive.google.com/file/d/1wUDKfj00LxkZOzNy_2UHTvUATu-9b9Dj/view?usp=drive_link)
 >* [task_wrapup_report](https://drive.google.com/file/d/1lUoX_2zAhhyvSkce1KbJ5MTnHmhW_Bui/view?usp=drive_link)
 >* [Schizophrenia Classification Project.pptx](https://docs.google.com/presentation/d/17kiqHYBNru-MUNOsUpw1AY1tCo_forCI/edit?usp=drive_link&ouid=100765527569012299868&rtpof=true&sd=true)
