@@ -33,7 +33,12 @@ The project is structured in four folders explained as follows:
 3. Acquired Dataset [private]: This folder contains the edf files which provide the eeg readings of the patients along with the gnr file for each patient which contain the biodata details of the patient.
 4. Data[private]: This folder contains the eeg_data, participants_info and model_data csv files. eeg_data contains the numeric eeg data for all the patients, participants_info contains the biodata of each of the patients, model_data contains the columns of data required for modelling. All the columns in model_data are numeric after necessary conversions.
 5. Models[private]: This folder contains the models saved from different trials of training before arriving at the best possible model.
-To view the private folders, request for access at https://drive.google.com/drive/folders/1eIFq550DbtDD0aAXaAPUyRd2Jlrys8PJ?usp=sharing 
+
+#### To view the private folders, request for access at https://drive.google.com/drive/folders/1eIFq550DbtDD0aAXaAPUyRd2Jlrys8PJ?usp=sharing 
+#### Private Files
+>* [Mujahid_401_Report_First_Draft.pdf](https://drive.google.com/file/d/1wUDKfj00LxkZOzNy_2UHTvUATu-9b9Dj/view?usp=drive_link)
+>* [task_wrapup_report](https://drive.google.com/file/d/1lUoX_2zAhhyvSkce1KbJ5MTnHmhW_Bui/view?usp=drive_link)
+>* [Schizophrenia Classification Project.pptx](https://docs.google.com/presentation/d/17kiqHYBNru-MUNOsUpw1AY1tCo_forCI/edit?usp=drive_link&ouid=100765527569012299868&rtpof=true&sd=true)
 
 ## Results and Evaluation:
 The metrics used to evaluate the model are accuracy and confusion matrix. The best performing model was got by training simple neural network with a standardized time-series EEG data. The accuracy of this best model is 91.84%. The confusion matrix gives 25 true positive, 20 true negative, 1 false positive and 3 false negative.
